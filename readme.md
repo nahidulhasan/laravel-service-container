@@ -88,7 +88,7 @@ class PasswordReminder
 
 In the above code we want to change connection from MySQLConnection to MongoDBConnection, we no need to change constructor injection in PasswordReminder class.Because here PasswordReminder class depends upon on Abstractions not on concretions.
 
-If your concept is not clear about interface then you can read this doc(https://medium.com/@NahidulHasan/understanding-use-of-interface-and-abstract-class-9a82f5f15837) . This doc will help you to understand Dependency Inversion Principle, IoC container etc clearly.
+If your concept is not clear about interface then you can read this [doc](https://medium.com/@NahidulHasan/understanding-use-of-interface-and-abstract-class-9a82f5f15837) . This doc will help you to understand Dependency Inversion Principle, IoC container etc clearly.
 
 Now I will discuss what happens in IoC container. we can simply say that IoC container is a Container that contains Inversion of Control (dependencies of a class).
 
@@ -370,6 +370,6 @@ $this->app->instance('HelpSpot\API', $api);
 
 If there is no binding, PHP’s Reflection class is used to resolve the instance and dependencies.
 
-You can learn more about it by reading the docs(https://laravel.com/docs/5.6/container)
+You can learn more about it by reading the [docs](https://laravel.com/docs/5.6/container)
 
 Thank you for reading.
