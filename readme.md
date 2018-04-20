@@ -11,9 +11,9 @@ I like Laravel because of its unique architectural design.Behind the scene Larav
 
 Learning code with Laravel is not just about learning to use the different classes but also learning the philosophy of Laravel, its elegance and its beautiful syntax. An important part of Laravel’s philosophy is the IoC container or Service Container. Understanding and using the IoC container is a crucial part in mastering our craft, as it is the core part of a Laravel application.
 
-IoC container is a powerful tool for managing class dependencies. It has the power to automatically resolve classes without configuration. Here I will try to discuss why we need it and How it works.
+Service Container is a powerful tool for managing class dependencies and performing dependency injection. It has the power to automatically resolve classes without configuration. Here I will try to discuss why we need it and How it works.
 
-If at first we know Dependency Inversion Principle it will help us to understand why we need IoC Container. So in the beginning I will discuss Dependency Inversion Principle.
+If at first we know Dependency Inversion Principle it will help us to understand why we need Service Container. So in the beginning I will discuss Dependency Inversion Principle.
 
 The principle states:
 
