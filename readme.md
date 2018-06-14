@@ -372,4 +372,6 @@ If there is no binding, PHP’s Reflection class is used to resolve the instance
 
 You can learn more about it by reading the [docs](https://laravel.com/docs/5.6/container)
 
+I have published this article in the medium. if you’d like to read from the medium blog site, please go to this [link](https://medium.com/@NahidulHasan/laravel-ioc-container-why-we-need-it-and-how-it-works-a603d4cef10f)
+
 Thank you for reading.
