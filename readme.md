@@ -175,7 +175,7 @@ Now if you hit browser you will get :
 
 Here, Need to mention that, We should not resolve app bind in route page. Here I have added  only for example purpose. 
 In our professional project we should have resolve app binding issue in ``AppServiceProvider`` class ``register``  method 
-in the following way:
+as described below:
 
 ```
 $this->app->bind('App\Repositories\OrderRepositoryInterface', 'App\Repositories\DbOrderRepository');
