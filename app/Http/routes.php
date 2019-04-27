@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-App::bind('App\Repositories\OrderRepositoryInterface', 'App\Repositories\DbOrderRepository');
+//App::bind('App\Repositories\OrderRepositoryInterface', 'App\Repositories\DbOrderRepository');
 
 Route::resource('orders', 'OrdersController');
